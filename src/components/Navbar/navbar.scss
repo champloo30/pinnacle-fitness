@@ -1,0 +1,85 @@
+@import "../../global.scss";
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, $grey 76%, $burnt 24%);
+
+    .navbar-container {
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+            width: 40vw;
+    
+            .logo {
+                cursor: pointer;
+
+                h3 {
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    width: 2rem;
+                    color: $snow;
+                }
+            }
+        }
+    
+        .center{
+            width: 40vw;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+    
+            .nav-list {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 5rem;
+    
+                .nav-item {
+                    list-style: none;
+                    margin-left: 2rem;
+                    font-size: 1rem;
+                    font-weight: 500;
+    
+                    a {
+                        text-decoration: none;
+                        color: $snow;
+                    }
+
+                    &:hover {
+                        border-bottom: 2px solid $burnt;
+                    }
+                    
+                }
+            }
+        }
+    
+        .right{
+            width: 20vw;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+    
+            .btn {
+                height: 2.5rem;
+                width: 5.5rem;
+                border: none;
+                background-color: $snow;
+    
+                a {
+                    text-decoration: none;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    color: black;
+                }
+            }
+        }
+    }
+}

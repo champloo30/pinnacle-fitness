@@ -1,0 +1,72 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #5E5A5A 76%, #CC5500 24%);
+}
+.navbar .navbar-container {
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-container .left {
+  width: 40vw;
+}
+.navbar .navbar-container .left .logo {
+  cursor: pointer;
+}
+.navbar .navbar-container .left .logo h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 2rem;
+  color: #FFFBFE;
+}
+.navbar .navbar-container .center {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar .navbar-container .center .nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5rem;
+}
+.navbar .navbar-container .center .nav-list .nav-item {
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.navbar .navbar-container .center .nav-list .nav-item a {
+  text-decoration: none;
+  color: #FFFBFE;
+}
+.navbar .navbar-container .center .nav-list .nav-item:hover {
+  border-bottom: 2px solid #CC5500;
+}
+.navbar .navbar-container .right {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar .navbar-container .right .btn {
+  height: 2.5rem;
+  width: 5.5rem;
+  border: none;
+  background-color: #FFFBFE;
+}
+.navbar .navbar-container .right .btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+/*# sourceMappingURL=navbar.css.map */

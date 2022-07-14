@@ -1,0 +1,20 @@
+html {
+  background-color: #5E5A5A;
+}
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+html body .sections {
+  height: 100vh;
+}
+html body .blur {
+  background-color: #CC5500;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}
+
+/*# sourceMappingURL=app.css.map */
