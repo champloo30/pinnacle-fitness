@@ -63,6 +63,8 @@
   background-color: #FFFBFE;
 }
 .navbar .navbar-container .right .btn a {
+  height: 2.5rem;
+  width: 5.5rem;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
