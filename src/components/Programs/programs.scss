@@ -1,6 +1,99 @@
 @import "../../global.scss";
 
 .programs {
-    height: 100vh;
+    height: 65vh;
     width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .programs-container {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 3rem;
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            color: $snow;
+
+            span {
+                color: transparent;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: $snow;
+            }
+        }
+
+        .program-boxes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .box {
+                height: 16rem;
+                width: 20.5rem;
+                background-color: $spanish;
+                margin-top: 1rem;
+                margin-right: 1.125rem;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover {
+                    background: linear-gradient(45deg, orange, $burnt);
+                }
+
+                .container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: space-evenly;
+                    width: 90%;
+
+                    img {
+                        height: 3rem;
+                        width: 3rem;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    span {
+                        font-size: 1.375rem;
+                        font-weight: 600;
+                        color: $snow;
+                    }
+
+                    p {
+                        font-size: 1.125rem;
+                        color: $snow;
+                        letter-spacing: 1px;
+                        margin-top: 0.5rem;
+                        height: 3.25rem;
+                    }
+
+                    .join {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        span {
+                            font-size: 1.25rem;
+                            margin-right: 1rem;
+                            font-weight: 500;
+                        }
+
+                        img {
+                            height: 1rem;
+                            width: 1rem;
+                            margin-top: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
