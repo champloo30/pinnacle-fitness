@@ -1,0 +1,142 @@
+.plans {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plans .plans-container {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.plans .plans-container h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFFBFE;
+  margin-top: -0.5rem;
+}
+.plans .plans-container h1 span {
+  color: #FFFBFE;
+}
+.plans .plans-container .plan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plans .plans-container .plan .box {
+  height: 27.5rem;
+  width: 17.5rem;
+  margin: 0 1rem;
+  background-color: #9B9799;
+}
+.plans .plans-container .plan .box .box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.plans .plans-container .plan .box .box-container img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.plans .plans-container .plan .box .box-container h2 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #FFFBFE;
+}
+.plans .plans-container .plan .box .box-container span {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #FFFBFE;
+  margin-bottom: 1.75rem;
+}
+.plans .plans-container .plan .box .box-container span .per-month {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.plans .plans-container .plan .box .box-container .perks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2rem;
+}
+.plans .plans-container .plan .box .box-container .perks img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.plans .plans-container .plan .box .box-container .perks p {
+  margin-left: 0.5rem;
+  color: #FFFBFE;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+.plans .plans-container .plan .box .box-container .benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.plans .plans-container .plan .box .box-container .benefits h3 {
+  font-size: 1rem;
+  color: #FFFBFE;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.plans .plans-container .plan .box .box-container .benefits img {
+  height: 1rem;
+  margin-top: -0.25rem;
+  margin-left: -0.5rem;
+}
+.plans .plans-container .plan .box .box-container .btn {
+  height: 3rem;
+  width: 15.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border: none;
+}
+.plans .plans-container .plan .box .box-container .btn span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #353E46;
+}
+.plans .plans-container .plan .box .box-container .btn:hover {
+  background: linear-gradient(45deg, orange, #CC5500);
+  border: none;
+}
+.plans .plans-container .plan .box .box-container .btn:hover span {
+  color: #FFFBFE;
+}
+.plans .plans-container .plan .selected {
+  height: 30rem;
+  width: 20rem;
+  background: linear-gradient(45deg, orange, #CC5500);
+}
+.plans .plans-container .plan .selected .box-container {
+  margin-top: 2rem;
+}
+.plans .plans-container .plan .selected .box-container .btn {
+  height: 3rem;
+  width: 18rem;
+}
+.plans .plans-container .plan .selected .box-container .btn span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #353E46;
+}
+.plans .plans-container .plan .selected .box-container .btn:hover {
+  background: #FFFBFE;
+}
+.plans .plans-container .plan .selected .box-container .btn:hover span {
+  background: linear-gradient(45deg, orange, #CC5500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*# sourceMappingURL=plans.css.map */

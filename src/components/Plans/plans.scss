@@ -1,0 +1,167 @@
+@import "../../global.scss";
+
+.plans {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .plans-container {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $snow;
+            margin-top: -0.5rem;
+
+            span {
+                color: $snow;
+            }
+        }
+
+        .plan {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .box {
+                height: 27.5rem;
+                width: 17.5rem;
+                margin: 0 1rem;
+                background-color: $spanish;
+
+                .box-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    margin-left: 1rem;
+                    margin-top: 1rem;
+
+                    img {
+                        height: 2.5rem;
+                        width: 2.5rem;
+                    }
+
+                    h2 {
+                        font-size: 1.25rem;
+                        text-transform: uppercase;
+                        color: $snow;
+                    }
+
+                    span {
+                        font-size: 3rem;
+                        font-weight: 500;
+                        color: $snow;
+                        margin-bottom: 1.75rem;
+
+                        .per-month {
+                            font-size: 1.5rem;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .perks {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: -2rem;
+
+                        img {
+                            height: 1.5rem;
+                            width: 1.5rem;
+                        }
+
+                        p {
+                            margin-left: 0.5rem;
+                            color: $snow;
+                            font-size: 1.25rem;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .benefits {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+
+                        h3 {
+                            font-size: 1rem;
+                            color: $snow;
+                            letter-spacing: 1px;
+                            font-weight: 300;
+                        }
+                        img {
+                            height: 1rem;
+                            margin-top: -0.25rem;
+                            margin-left: -0.5rem;
+                        }
+                    }
+
+                    .btn {
+                        height: 3rem;
+                        width: 15.5rem;
+                        margin-top: 1.5rem;
+                        cursor: pointer;
+                        border: none;
+
+                        span {
+                            font-size: 1.5rem;
+                            font-weight: 500;
+                            color: $charcoal;
+                        }
+
+                        &:hover {
+                            background: linear-gradient(45deg, orange, $burnt);
+                            border: none;
+
+                            span {
+                                color: $snow;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .selected {
+                height: 30rem;
+                width: 20rem;
+                background: linear-gradient(45deg, orange, $burnt);
+
+                .box-container {
+                    margin-top: 2rem;
+
+                    .btn {
+                        height: 3rem;
+                        width: 18rem;
+
+                        span {
+                            font-size: 1.5rem;
+                            font-weight: 500;
+                            color: $charcoal;
+                        }
+
+                        &:hover {
+                            background: $snow;
+
+                            span {
+                                background: linear-gradient(45deg, orange, $burnt);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

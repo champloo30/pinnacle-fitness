@@ -41,7 +41,7 @@
 .home .home-container .left h1 {
   font-size: 4.5rem;
   text-transform: uppercase;
-  margin: 0.75rem 0;
+  margin: 0;
   color: #FFFBFE;
 }
 .home .home-container .left h1 span {
@@ -50,6 +50,7 @@
   -webkit-text-stroke-color: #FFFBFE;
 }
 .home .home-container .left p {
+  margin-top: -0.25rem;
   font-size: 1.75rem;
   color: #FFFBFE;
   word-spacing: 3px;
@@ -60,6 +61,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  margin-top: -1rem;
 }
 .home .home-container .left .subcat h3 {
   font-size: 2.5rem;
@@ -76,7 +78,7 @@
   margin: 0;
 }
 .home .home-container .left .home-btns {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 .home .home-container .left .home-btns .btn {
   height: 3rem;
