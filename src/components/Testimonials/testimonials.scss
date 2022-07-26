@@ -1,0 +1,123 @@
+@import "../../global.scss";
+
+.testimonials {
+    height: 100vh;
+    width: 100%;
+    border-bottom: 3px solid $snow;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .testimonials-container {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+        h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $snow;
+            width: 25rem;
+
+            span {
+                color: $snow;
+            }
+        }
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    width: 50rem;
+
+                    p {
+                        color: $snow;
+                        font-size: 1.25rem;
+                        letter-spacing: 1px;
+
+                        &:last-child {
+                            text-transform: uppercase;
+                            font-weight: 500;
+
+                            span {
+                                color: $burnt;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .arrows {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 3rem;
+                        margin-top: 5rem;
+
+                        .left-arrow {
+                            height: 2rem;
+                            width: 1.5rem;
+                            cursor: pointer;
+                        }
+
+                        .right-arrow {
+                            height: 2rem;
+                            width: 1.5rem;
+                            transform: rotate(180deg);
+                            margin-left: 0.5rem;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .picture-container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 2rem;
+
+                        .square1 {
+                            height: 17.5rem;
+                            width: 13rem;
+                            border: 2px solid $snow;
+                            margin-top: -10rem;
+                        }
+
+                        .square2 {
+                            height: 17.5rem;
+                            width: 13rem;
+                            background: $gradient;
+                            margin-left: -11.5rem;
+                            margin-top: -6rem;
+                        }
+
+                        img {
+                            height: 17.5rem;
+                            width: 13rem;
+                            margin-left: -13.75rem;
+                            margin-top: -8.25rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

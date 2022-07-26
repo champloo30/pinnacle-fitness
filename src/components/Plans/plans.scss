@@ -121,7 +121,7 @@
                         }
 
                         &:hover {
-                            background: linear-gradient(45deg, orange, $burnt);
+                            background: $gradient;
                             border: none;
 
                             span {
@@ -135,7 +135,7 @@
             .selected {
                 height: 30rem;
                 width: 20rem;
-                background: linear-gradient(45deg, orange, $burnt);
+                background: $gradient;
 
                 .box-container {
                     margin-top: 2rem;

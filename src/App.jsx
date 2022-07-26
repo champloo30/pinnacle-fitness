@@ -3,6 +3,7 @@ import Home from './components/Home/Home';
 import Navbar from "./components/Navbar/Navbar";
 import Plans from "./components/Plans/Plans";
 import Programs from "./components/Programs/Programs";
+import Testimonials from "./components/Testimonials/Testimonials";
 import WhyUs from "./components/WhyUs/WhyUs";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Programs />
         <WhyUs />
         <Plans />
+        <Testimonials />
       </div>
     </div>
   );
