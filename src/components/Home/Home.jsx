@@ -4,7 +4,7 @@ import runningWoman from '../../assets/pngwing.com.png';
 
 export default function Home() {
   return (
-    <div id='home' className='home'>
+    <div className='home'>
       <div className="home-container">
         <div className="left">
           <div className="top-slider">

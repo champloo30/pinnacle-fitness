@@ -4,7 +4,7 @@ import mountain from '../../assets/mountain-svgrepo-com.svg'
 
 export default function Navbar() {
   return (
-    <div className='navbar'>
+    <div id='home' className='navbar'>
         <div className="navbar-container">
             <div className="left">
                 <div className="logo">
@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
             <div className="right">
                 <button className='btn'>
-                    <a href="#contact">Join Now</a>
+                    <a href="#testimonials">Join Now</a>
                 </button>
             </div>
         </div>
