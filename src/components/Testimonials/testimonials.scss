@@ -22,6 +22,7 @@
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: $snow;
             width: 25rem;
+            margin-top: 5.5rem;
 
             span {
                 color: $snow;
@@ -49,6 +50,7 @@
                         color: $snow;
                         font-size: 1.25rem;
                         letter-spacing: 1.5px;
+                        margin-top: 2rem;
 
                         &:last-child {
                             text-transform: uppercase;

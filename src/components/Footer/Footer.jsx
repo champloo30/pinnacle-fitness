@@ -10,7 +10,7 @@ export default function Footer() {
     <div className='footer'>
         <div className="footer-container">
             <div className="icons">
-                <img src={github} alt="" className="icon" />
+                <a href="https://github.com/champloo30/pinnacle-fitness" target="_blank" rel="noopener noreferrer"><img src={github} alt="" className="icon" /></a>
                 <img src={instagram} alt="" className="icon" />
                 <img src={twitter} alt="" className="icon" />
             </div>

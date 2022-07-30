@@ -20,6 +20,7 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #FFFBFE;
   width: 25rem;
+  margin-top: 5.5rem;
 }
 .testimonials .testimonials-container h1 span {
   color: #FFFBFE;
@@ -45,6 +46,7 @@
   color: #FFFBFE;
   font-size: 1.25rem;
   letter-spacing: 1.5px;
+  margin-top: 2rem;
 }
 .testimonials .testimonials-container .wrapper .card .left p:last-child {
   text-transform: uppercase;

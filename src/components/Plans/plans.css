@@ -31,7 +31,7 @@
 .plans .plans-container .plan .box {
   height: 27.5rem;
   width: 17.5rem;
-  margin: 0 1rem;
+  margin: 2rem 1rem 0;
   background-color: #9B9799;
 }
 .plans .plans-container .plan .box .box-container {
@@ -45,17 +45,19 @@
 .plans .plans-container .plan .box .box-container img {
   height: 2.5rem;
   width: 2.5rem;
+  margin-bottom: 1rem;
 }
 .plans .plans-container .plan .box .box-container h2 {
   font-size: 1.25rem;
   text-transform: uppercase;
   color: #FFFBFE;
+  margin-bottom: 1rem;
 }
 .plans .plans-container .plan .box .box-container span {
   font-size: 3rem;
   font-weight: 500;
   color: #FFFBFE;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
 }
 .plans .plans-container .plan .box .box-container span .per-month {
   font-size: 1.5rem;
@@ -65,7 +67,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -2rem;
+  margin-bottom: 0.5rem;
 }
 .plans .plans-container .plan .box .box-container .perks img {
   height: 1.5rem;
@@ -76,12 +78,14 @@
   color: #FFFBFE;
   font-size: 1.25rem;
   letter-spacing: 1px;
+  margin-top: -0.75rem;
 }
 .plans .plans-container .plan .box .box-container .benefits {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-top: -0.5rem;
 }
 .plans .plans-container .plan .box .box-container .benefits h3 {
   font-size: 1rem;
@@ -91,13 +95,13 @@
 }
 .plans .plans-container .plan .box .box-container .benefits img {
   height: 1rem;
-  margin-top: -0.25rem;
+  margin-top: 0.75rem;
   margin-left: -0.5rem;
 }
 .plans .plans-container .plan .box .box-container .btn {
   height: 3rem;
   width: 15.5rem;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   cursor: pointer;
   border: none;
 }
@@ -121,9 +125,16 @@
 .plans .plans-container .plan .selected .box-container {
   margin-top: 2rem;
 }
+.plans .plans-container .plan .selected .box-container .perks {
+  margin-bottom: 1rem;
+}
+.plans .plans-container .plan .selected .box-container .benefits {
+  margin-top: -1rem;
+}
 .plans .plans-container .plan .selected .box-container .btn {
   height: 3rem;
   width: 18rem;
+  margin-top: 1rem;
 }
 .plans .plans-container .plan .selected .box-container .btn span {
   font-size: 1.5rem;
