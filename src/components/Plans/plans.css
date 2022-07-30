@@ -107,7 +107,7 @@
   color: #353E46;
 }
 .plans .plans-container .plan .box .box-container .btn:hover {
-  background: linear-gradient(45deg, orange, #CC5500);
+  background: linear-gradient(45deg, #ffa500, #CC5500);
   border: none;
 }
 .plans .plans-container .plan .box .box-container .btn:hover span {
@@ -116,7 +116,7 @@
 .plans .plans-container .plan .selected {
   height: 30rem;
   width: 20rem;
-  background: linear-gradient(45deg, orange, #CC5500);
+  background: linear-gradient(45deg, #ffa500, #CC5500);
 }
 .plans .plans-container .plan .selected .box-container {
   margin-top: 2rem;

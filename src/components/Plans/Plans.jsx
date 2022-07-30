@@ -46,15 +46,15 @@ export default function Plans() {
                         <span>$ 32<span className='per-month'> /month</span></span>
                         <div className="perks">
                             <img src={checkPlans} alt="" />
-                            <p>1 guest pass</p>
+                            <p>2 guest pass</p>
                         </div>
                         <div className="perks">
                             <img src={checkPlans} alt="" />
-                            <p>2 personal trainings /week</p>
+                            <p>3 personal trainings /week</p>
                         </div>
                         <div className="perks">
                             <img src={checkPlans} alt="" />
-                            <p>Access to The Community</p>
+                            <p>Access to Minibar</p>
                         </div>
                         <div className="benefits">
                             <h3>See more benefits</h3>
@@ -72,15 +72,15 @@ export default function Plans() {
                         <span>$ 40<span className='per-month'> /month</span></span>
                         <div className="perks">
                             <img src={checkPlans} alt="" />
-                            <p>1 guest pass</p>
+                            <p>Unlimited guest passes</p>
                         </div>
                         <div className="perks">
                             <img src={checkPlans} alt="" />
-                            <p>2 personal trainings /week</p>
+                            <p>4 personal trainings /week</p>
                         </div>
                         <div className="perks">
                             <img src={checkPlans} alt="" />
-                            <p>Access to The Community</p>
+                            <p>Free Monthly Fitness Box</p>
                         </div>
                         <div className="benefits">
                             <h3>See more benefits</h3>

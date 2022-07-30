@@ -1,7 +1,7 @@
 .testimonials {
   height: 100vh;
   width: 100%;
-  border-bottom: 3px solid #FFFBFE;
+  border-bottom: 2px solid #FFFBFE;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -44,14 +44,14 @@
 .testimonials .testimonials-container .wrapper .card .left p {
   color: #FFFBFE;
   font-size: 1.25rem;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 .testimonials .testimonials-container .wrapper .card .left p:last-child {
   text-transform: uppercase;
   font-weight: 500;
 }
 .testimonials .testimonials-container .wrapper .card .left p:last-child span {
-  color: #CC5500;
+  color: #F28500;
 }
 .testimonials .testimonials-container .wrapper .card .right {
   display: flex;
@@ -81,7 +81,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 2rem;
+  margin-left: 5rem;
 }
 .testimonials .testimonials-container .wrapper .card .right .picture-container .square1 {
   height: 17.5rem;
@@ -92,15 +92,78 @@
 .testimonials .testimonials-container .wrapper .card .right .picture-container .square2 {
   height: 17.5rem;
   width: 13rem;
-  background: linear-gradient(45deg, orange, #CC5500);
-  margin-left: -11.5rem;
+  background: linear-gradient(45deg, #ffa500, #CC5500);
+  margin-left: -11.25rem;
   margin-top: -6rem;
 }
 .testimonials .testimonials-container .wrapper .card .right .picture-container img {
   height: 17.5rem;
   width: 13rem;
-  margin-left: -13.75rem;
+  margin-left: -13.875rem;
   margin-top: -8.25rem;
+}
+.testimonials .testimonials-container .wrapper .none {
+  display: none;
+}
+.testimonials .testimonials-container hr {
+  height: 2px;
+  width: 40rem;
+  background-color: #F28500;
+  border: none;
+  margin-top: 4rem;
+  margin-left: 0;
+}
+.testimonials .testimonials-container .sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFBFE;
+  margin-top: 1.5rem;
+}
+.testimonials .testimonials-container .sign-up h2 {
+  width: 30rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFFBFE;
+}
+.testimonials .testimonials-container .sign-up h2 span {
+  color: #FFFBFE;
+}
+.testimonials .testimonials-container .sign-up .form {
+  height: 5rem;
+  width: 20rem;
+  background-color: #9B9799;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.testimonials .testimonials-container .sign-up .form .text {
+  width: 11rem;
+  height: 2rem;
+  background-color: #9B9799;
+  border: none;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #FFFBFE;
+}
+.testimonials .testimonials-container .sign-up .form .text::placeholder {
+  font-size: 1.125rem;
+  color: #FFFBFE;
+  letter-spacing: 1px;
+}
+.testimonials .testimonials-container .sign-up .form .btn {
+  height: 3rem;
+  width: 5rem;
+  background: linear-gradient(45deg, #ffa500, #CC5500);
+  border: none;
+  color: #FFFBFE;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=testimonials.css.map */

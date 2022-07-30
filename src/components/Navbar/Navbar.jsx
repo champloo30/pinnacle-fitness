@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.scss';
+import mountain from '../../assets/mountain-svgrepo-com.svg'
 
 export default function Navbar() {
   return (
@@ -7,7 +8,8 @@ export default function Navbar() {
         <div className="navbar-container">
             <div className="left">
                 <div className="logo">
-                    <h3>Pinnacle Fitness</h3>
+                    <img src={mountain} alt="" />
+                    <h3><span>Pinnacle</span> Fitness</h3>
                 </div>
             </div>
             <div className="center">
@@ -25,7 +27,7 @@ export default function Navbar() {
                         <a href="#plans">Plans</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#testimonals">Testimonals</a>
+                        <a href="#testimonials">Testimonals</a>
                     </li>
                 </ul>
             </div>

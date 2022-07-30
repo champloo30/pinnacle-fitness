@@ -3,7 +3,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(to right, #5E5A5A 76%, #CC5500 24%);
+  background: linear-gradient(to right, #5E5A5A 76%, #F28500 24%);
 }
 .home .home-container {
   width: 95vw;
@@ -84,7 +84,7 @@
   height: 3rem;
   width: 7.5rem;
   margin-right: 1rem;
-  background-color: #CC5500;
+  background-color: #F28500;
   border: none;
   color: #FFFBFE;
   font-size: 1.125rem;
@@ -97,11 +97,11 @@
 }
 .home .home-container .left .home-btns .btn:last-child {
   background-color: #5E5A5A;
-  border: 3px solid #CC5500;
+  border: 3px solid #F28500;
   transition: all 0.5s ease;
 }
 .home .home-container .left .home-btns .btn:last-child:hover {
-  background-color: #CC5500;
+  background-color: #F28500;
 }
 .home .home-container .right {
   width: 30vw;

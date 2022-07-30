@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #5E5A5A 76%, #CC5500 24%);
+  background: linear-gradient(to right, #5E5A5A 76%, #F28500 24%);
 }
 .navbar .navbar-container {
   width: 95vw;
@@ -14,9 +14,19 @@
 }
 .navbar .navbar-container .left {
   width: 40vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .navbar .navbar-container .left .logo {
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-container .left .logo img {
+  height: 4rem;
+  width: 3rem;
+  margin-right: 0.25rem;
 }
 .navbar .navbar-container .left .logo h3 {
   font-size: 1.25rem;
@@ -24,6 +34,9 @@
   text-transform: uppercase;
   width: 2rem;
   color: #FFFBFE;
+}
+.navbar .navbar-container .left .logo h3 span {
+  margin-left: -0.9rem;
 }
 .navbar .navbar-container .center {
   width: 40vw;
@@ -48,7 +61,7 @@
   color: #FFFBFE;
 }
 .navbar .navbar-container .center .nav-list .nav-item:hover {
-  border-bottom: 2px solid #CC5500;
+  border-bottom: 2px solid #F28500;
 }
 .navbar .navbar-container .right {
   width: 20vw;

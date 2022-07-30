@@ -1,0 +1,68 @@
+.footer {
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-container {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-container .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+.footer .footer-container .icons .icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0 2rem;
+}
+.footer .footer-container .footer-list {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5rem;
+  margin-top: 3.5rem;
+}
+.footer .footer-container .footer-list .footer-item {
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footer .footer-container .footer-list .footer-item a {
+  text-decoration: none;
+  color: #FFFBFE;
+}
+.footer .footer-container .footer-list .footer-item:hover {
+  border-bottom: 2px solid #F28500;
+}
+.footer .footer-container .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-container .logo .mountain {
+  height: 4.5rem;
+  margin-right: 0.75rem;
+  margin-left: -5rem;
+}
+.footer .footer-container .logo h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 2rem;
+  color: #FFFBFE;
+}
+.footer .footer-container .logo h3 span {
+  margin-left: -1.45rem;
+}
+
+/*# sourceMappingURL=footer.css.map */

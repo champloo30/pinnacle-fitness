@@ -5,7 +5,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: linear-gradient(to right, $grey 76%, $burnt 24%);
+    background: linear-gradient(to right, $grey 76%, $tangerine 24%);
     
     .home-container {
         width: 95vw;
@@ -94,7 +94,7 @@
                     height: 3rem;
                     width: 7.5rem;
                     margin-right: 1rem;
-                    background-color: $burnt;
+                    background-color: $tangerine;
                     border: none;
                     color: $snow;
                     font-size: 1.125rem;
@@ -108,11 +108,11 @@
 
                     &:last-child {
                         background-color: $grey;
-                        border: 3px solid $burnt;
+                        border: 3px solid $tangerine;
                         transition: all 0.5s ease;
 
                         &:hover {
-                            background-color: $burnt;
+                            background-color: $tangerine;
                         }
                     }
                 }
