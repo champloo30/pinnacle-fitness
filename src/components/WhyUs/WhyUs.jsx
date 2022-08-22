@@ -14,10 +14,10 @@ export default function WhyUs() {
     <div id='why-us' className='why-us'>
         <div className="why-us-container">
             <div className="left">
-                <img className='tricep' src={tricep} alt="" />
-                <img className='rope' src={rope} alt="" />
-                <img className='chest' src={chest} alt="" />
-                <img className='shoulder' src={shoulder} alt="" />
+                <img className='img tricep' src={tricep} alt="" />
+                <img className='img rope' src={rope} alt="" />
+                <img className='img' src={chest} alt="" />
+                <img className='img' src={shoulder} alt="" />
             </div>
             <div className="right">
                 <h1><span>why </span>choose us</h1>
